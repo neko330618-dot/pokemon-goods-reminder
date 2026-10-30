@@ -1,0 +1,29 @@
+
+name: Pokemon goods daily check
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "30 6 * * *"
+      timezone: "Asia/Tokyo"
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check official Pokemon goods site
+        run: |
+          python - <<'PY'
+          import urllib.request
+
+          url = "https://www.pokemon.co.jp/goods/"
+          request = urllib.request.Request(
+              url,
+              headers={"User-Agent": "Mozilla/5.0"}
+          )
+
+          with urllib.request.urlopen(request, timeout=30) as response:
+              print("HTTP status:", response.status)
+              print("Content type:", response.headers.get("Content-Type"))
+              print("Official goods site connection OK")
+          PY
