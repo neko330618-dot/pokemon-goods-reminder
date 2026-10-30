@@ -1,7 +1,7 @@
 {
   "status": "取得失敗",
   "message": "公式ページを取得できませんでした。アクセス制限などの可能性があります。",
-  "updatedAt": "2026-10-30T12:54:57+09:00",
+  "updatedAt": "2026-10-31T06:59:51+09:00",
   "news": [],
   "errors": [
     "ポケモンセンターオンライン: HTTPError HTTP Error 403: Forbidden",
