@@ -33,7 +33,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add products.json
+          git add products.json card_news.json
           if ! git diff --cached --quiet; then
             git commit -m "Update Pokemon goods"
             git push
