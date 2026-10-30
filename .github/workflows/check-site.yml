@@ -28,6 +28,10 @@ jobs:
       - name: Update Pokemon card news
         run: python scripts/update_card_news.py
 
+      - name: Test Pokemon Center catalog access
+        continue-on-error: true
+        run: python scripts/test_pokemoncenter_catalog.py
+
       - name: Check Pokemon Center Online
         continue-on-error: true
         run: python scripts/update_pokemoncenter.py
