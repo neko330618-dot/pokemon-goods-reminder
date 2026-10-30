@@ -1,7 +1,11 @@
 {
-  "updatedAt": "2026-10-30 11:49",
-  "source": "https://www.pokemoncenter-online.com/",
-  "status": "情報取得不可",
-  "message": "公開RSSから情報を取得できませんでした。公式サイトで最新情報をご確認ください。HTTPエラー: 404 / HTTPエラー: 404",
-  "news": []
+  "status": "取得失敗",
+  "message": "公式ページを取得できませんでした。アクセス制限などの可能性があります。",
+  "updatedAt": "2026-10-30T12:54:57+09:00",
+  "news": [],
+  "errors": [
+    "ポケモンセンターオンライン: HTTPError HTTP Error 403: Forbidden",
+    "特集・新商品: HTTPError HTTP Error 403: Forbidden",
+    "新商品・予約商品: HTTPError HTTP Error 403: Forbidden"
+  ]
 }
