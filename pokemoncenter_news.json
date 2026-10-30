@@ -1,7 +1,7 @@
 {
-  "updatedAt": "2026-10-30 11:31",
+  "updatedAt": "2026-10-30 11:49",
   "source": "https://www.pokemoncenter-online.com/",
-  "status": "接続できません",
-  "message": "HTTPエラー: 403",
+  "status": "情報取得不可",
+  "message": "公開RSSから情報を取得できませんでした。公式サイトで最新情報をご確認ください。HTTPエラー: 404 / HTTPエラー: 404",
   "news": []
 }
