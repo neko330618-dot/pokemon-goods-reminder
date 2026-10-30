@@ -145,6 +145,19 @@ footer{text-align:center;font-size:11px;color:#91a1af;padding:25px}
 </section>
 
 <section class="section">
+  <h2 class="section-title">🏬 ポケモンセンターオンライン</h2>
+  <div id="centerMessage" class="status neutral">
+    接続状況を確認中...
+  </div>
+  <div id="centerUpdated" class="update-time"></div>
+  <a class="center-link"
+     href="https://www.pokemoncenter-online.com/"
+     target="_blank" rel="noopener">
+    ポケモンセンターオンラインを開く ↗
+  </a>
+</section>
+
+<section class="section">
   <h2 class="section-title">🎁 ポケモングッズ</h2>
   <div id="count" class="meta">商品情報を読み込み中...</div>
 
@@ -172,19 +185,6 @@ footer{text-align:center;font-size:11px;color:#91a1af;padding:25px}
      href="https://www.pokemon-card.com/info/"
      target="_blank" rel="noopener">
     ポケカ公式ニュースを開く ↗
-  </a>
-</section>
-
-<section class="section">
-  <h2 class="section-title">🏬 ポケモンセンターオンライン</h2>
-  <div id="centerMessage" class="status neutral">
-    接続状況を確認中...
-  </div>
-  <div id="centerUpdated" class="update-time"></div>
-  <a class="center-link"
-     href="https://www.pokemoncenter-online.com/"
-     target="_blank" rel="noopener">
-    ポケモンセンターオンラインを開く ↗
   </a>
 </section>
 
@@ -335,6 +335,7 @@ async function loadPokemonCenter(){
 }
 
 document.getElementById("filters").addEventListener("click",e=>{
+
   const button=e.target.closest("button");
   if(!button)return;
   selectedCategory=button.dataset.category;
