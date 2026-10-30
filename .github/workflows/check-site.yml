@@ -25,6 +25,9 @@ jobs:
 
       - name: Update Pokemon goods
         run: python scripts/update_products.py
+        
+      - name: Update Pokemon card news
+        run: python scripts/update_card_news.py
 
       - name: Save updated product data
         run: |
