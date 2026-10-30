@@ -1,4 +1,15 @@
+
 {
-  "updatedAt": "",
-  "products": []
+  "updatedAt": "2026-10-30",
+  "products": [
+    {
+      "name": "ピカチュウ テストぬいぐるみ",
+      "category": "ぬいぐるみ",
+      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
+      "releaseDate": "2026年11月予定",
+      "preorderDate": "未定",
+      "price": "テスト用",
+      "url": "https://www.pokemoncenter-online.com/"
+    }
+  ]
 }
