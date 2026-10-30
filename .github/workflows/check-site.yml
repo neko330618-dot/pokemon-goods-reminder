@@ -1,4 +1,3 @@
-
 name: Pokemon goods daily update
 
 on:
@@ -25,15 +24,22 @@ jobs:
 
       - name: Update Pokemon goods
         run: python scripts/update_products.py
-        
+
       - name: Update Pokemon card news
         run: python scripts/update_card_news.py
+
+      - name: Check Pokemon Center Online
+        continue-on-error: true
+        run: python scripts/update_pokemoncenter.py
 
       - name: Save updated product data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add products.json card_news.json
+          if [ -f pokemoncenter_news.json ]; then
+            git add pokemoncenter_news.json
+          fi
           if ! git diff --cached --quiet; then
             git commit -m "Update Pokemon goods"
             git push
