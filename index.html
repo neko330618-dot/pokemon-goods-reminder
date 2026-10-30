@@ -1,69 +1,153 @@
-
 <!DOCTYPE html>
 <html lang="ja">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>ポケモングッズ リマインダー</title>
+<title>POKÉMON GOODS HUB</title>
+
 <style>
 *{box-sizing:border-box}
 body{
   margin:0;
   font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
-  background:#f3faff;color:#26364b;
+  background:#f1f8ff;
+  color:#26364b;
 }
 header{
-  padding:24px 16px;text-align:center;
-  background:linear-gradient(135deg,#d9f2ff,#fff5bd);
+  padding:28px 16px;
+  text-align:center;
+  background:linear-gradient(135deg,#bce8ff,#fff1a8);
   border-radius:0 0 28px 28px;
 }
-h1{font-size:23px;margin:4px}
-header p{font-size:12px;color:#60758a;margin:8px}
-main{max-width:760px;margin:auto;padding:18px 14px}
-.section-title{font-size:18px;font-weight:bold;margin:12px 0}
-.summary{
-  background:white;border-radius:16px;padding:15px;
-  box-shadow:0 3px 14px #c9ddeb55;margin-bottom:20px;
+header h1{font-size:25px;margin:8px 0}
+header p{font-size:12px;color:#60758a}
+main{max-width:900px;margin:auto;padding:18px 14px}
+.section{
+  background:white;
+  border-radius:18px;
+  padding:16px;
+  margin-bottom:18px;
+  box-shadow:0 3px 14px #c9ddeb55;
 }
+.section-title{
+  font-size:19px;
+  font-weight:bold;
+  margin:0 0 12px;
+}
+.summary{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:8px;
+}
+.summary-card{
+  background:#edf7ff;
+  border-radius:12px;
+  padding:12px 8px;
+  text-align:center;
+}
+.summary-card strong{display:block;font-size:13px}
+.summary-card span{font-size:11px;color:#60758a}
+.status{font-size:12px;margin-top:8px}
+.good{color:#16834b;font-weight:bold}
+.bad{color:#d34b4b;font-weight:bold}
+.neutral{color:#718096}
 .filters{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
 .filters button{
   border:0;border-radius:20px;padding:9px 14px;
   background:#e4f3ff;color:#315879;font-weight:bold;
+  cursor:pointer;
 }
 .filters button.active{background:#347fbd;color:white}
-.products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
-.product{
-  background:white;border-radius:16px;overflow:hidden;
-  box-shadow:0 3px 14px #c9ddeb55;
+.products{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
 }
-.product img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#f8fbff}
+.product{
+  background:white;border-radius:14px;overflow:hidden;
+  box-shadow:0 3px 12px #c9ddeb55;
+}
+.product img{
+  width:100%;aspect-ratio:1/1;
+  object-fit:contain;background:#f8fbff;
+}
 .info{padding:11px}
 .name{font-weight:bold;font-size:14px}
 .meta{font-size:12px;color:#64788a;margin-top:7px;line-height:1.7}
-.tag{display:inline-block;background:#fff1b9;color:#795d00;
-  padding:4px 8px;border-radius:10px;font-size:11px;margin-top:7px}
-.detail{display:block;text-align:center;background:#e7f4ff;
+.tag{
+  display:inline-block;background:#fff1b9;color:#795d00;
+  padding:4px 8px;border-radius:10px;font-size:11px;margin-top:7px;
+}
+.detail{
+  display:block;text-align:center;background:#e7f4ff;
   color:#27669b;padding:9px;border-radius:10px;margin-top:10px;
-  text-decoration:none;font-size:12px;font-weight:bold}
-.empty{background:white;padding:22px;border-radius:14px;
-  text-align:center;color:#73869a;grid-column:1/-1}
-footer{text-align:center;font-size:11px;color:#91a1af;padding:28px}
-@media(min-width:600px){.products{grid-template-columns:repeat(3,minmax(0,1fr))}}
+  text-decoration:none;font-size:12px;font-weight:bold;
+}
+.news-list{display:grid;gap:10px}
+.news-item{
+  background:#f5faff;border-radius:12px;padding:12px;
+}
+.news-item a{
+  color:#285e91;text-decoration:none;font-weight:bold;
+  font-size:13px;line-height:1.6;
+}
+.news-item a:hover{text-decoration:underline}
+.news-source{font-size:10px;color:#8193a4;margin-top:5px}
+.center-link{
+  display:block;text-align:center;
+  background:#347fbd;color:white;
+  padding:13px;border-radius:12px;
+  text-decoration:none;font-weight:bold;font-size:13px;
+  margin-top:12px;
+}
+.empty{
+  background:#f5faff;padding:18px;border-radius:12px;
+  text-align:center;color:#73869a;grid-column:1/-1;font-size:13px;
+}
+.update-time{font-size:11px;color:#8193a4;margin-top:8px}
+footer{text-align:center;font-size:11px;color:#91a1af;padding:25px}
+@media(min-width:600px){
+  .products{grid-template-columns:repeat(3,minmax(0,1fr))}
+}
+@media(max-width:380px){
+  .summary{grid-template-columns:1fr}
+}
 </style>
 </head>
+
 <body>
+
 <header>
-  <div>⚡ POKÉMON GOODS ⚡</div>
-  <h1>ポケモングッズ リマインダー</h1>
-  <p>お気に入りのグッズを見逃さないためのコレクション帳</p>
+  <div>⚡ POKÉMON GOODS HUB ⚡</div>
+  <h1>ポケモングッズ総合ダッシュボード</h1>
+  <p>新商品・ポケカ・抽選・再販情報をまとめてチェック！</p>
 </header>
+
 <main>
+
+<section class="section">
+  <h2 class="section-title">📡 情報取得ステータス</h2>
   <div class="summary">
-    <div class="section-title">🎁 グッズ情報</div>
-    <div id="count">商品情報を読み込み中...</div>
-    <div id="updated" class="meta"></div>
+    <div class="summary-card">
+      <strong>🎁 グッズ</strong>
+      <span id="goodsStatus">読み込み中</span>
+    </div>
+    <div class="summary-card">
+      <strong>🃏 ポケカ</strong>
+      <span id="cardStatus">読み込み中</span>
+    </div>
+    <div class="summary-card">
+      <strong>🏬 ポケセン</strong>
+      <span id="centerStatus">読み込み中</span>
+    </div>
   </div>
-  <div class="section-title">商品一覧</div>
+  <div id="lastUpdated" class="update-time"></div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">🎁 ポケモングッズ</h2>
+  <div id="count" class="meta">商品情報を読み込み中...</div>
+
   <div class="filters" id="filters">
     <button class="active" data-category="all">すべて</button>
     <button data-category="ぬいぐるみ">ぬいぐるみ</button>
@@ -71,30 +155,86 @@ footer{text-align:center;font-size:11px;color:#91a1af;padding:28px}
     <button data-category="フィギュア">フィギュア</button>
     <button data-category="その他">その他</button>
   </div>
+
   <div class="products" id="products">
     <div class="empty">商品データを準備中です 🐾</div>
   </div>
+  <div id="goodsUpdated" class="update-time"></div>
+</section>
+
+<section class="section">
+  <h2 class="section-title">🃏 ポケモンカード公式ニュース</h2>
+  <div id="cardNews" class="news-list">
+    <div class="empty">ニュースを読み込み中...</div>
+  </div>
+  <div id="cardUpdated" class="update-time"></div>
+  <a class="center-link"
+     href="https://www.pokemon-card.com/info/"
+     target="_blank" rel="noopener">
+    ポケカ公式ニュースを開く ↗
+  </a>
+</section>
+
+<section class="section">
+  <h2 class="section-title">🏬 ポケモンセンターオンライン</h2>
+  <div id="centerMessage" class="status neutral">
+    接続状況を確認中...
+  </div>
+  <div id="centerUpdated" class="update-time"></div>
+  <a class="center-link"
+     href="https://www.pokemoncenter-online.com/"
+     target="_blank" rel="noopener">
+    ポケモンセンターオンラインを開く ↗
+  </a>
+</section>
+
 </main>
-<footer>Pokémon Goods Reminder</footer>
+
+<footer>
+  POKÉMON GOODS HUB<br>
+  情報は各公式サイトをご確認ください
+</footer>
+
 <script>
 let allProducts=[];
 let selectedCategory="all";
 
+function escapeHTML(value){
+  return String(value).replace(/[&<>"']/g,c=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[c]));
+}
+
+function safeURL(value){
+  try{
+    const u=new URL(value,location.href);
+    return ["https:","http:"].includes(u.protocol)?u.href:"";
+  }catch{return "";}
+}
+
+async function loadJSON(file){
+  const response=await fetch("./"+file+"?time="+Date.now());
+  if(!response.ok)throw new Error(file+"を読み込めません");
+  return await response.json();
+}
+
 async function loadProducts(){
   try{
-    const response=await fetch("./products.json?time="+Date.now());
-    if(!response.ok) throw new Error("商品データを読み込めません");
-    const data=await response.json();
+    const data=await loadJSON("products.json");
     allProducts=Array.isArray(data.products)?data.products:[];
+    document.getElementById("goodsStatus").textContent="取得成功";
+    document.getElementById("goodsStatus").className="good";
     document.getElementById("count").textContent=
       "登録商品："+allProducts.length+"件";
-    document.getElementById("updated").textContent=
-      data.updatedAt?"更新日："+data.updatedAt:"";
+    document.getElementById("goodsUpdated").textContent=
+      data.updatedAt?"更新日時："+data.updatedAt:"";
     renderProducts();
   }catch(error){
-    document.getElementById("count").textContent="商品データの読み込み待ち";
+    document.getElementById("goodsStatus").textContent="取得失敗";
+    document.getElementById("goodsStatus").className="bad";
+    document.getElementById("count").textContent="商品情報を取得できません";
     document.getElementById("products").innerHTML=
-      '<div class="empty">商品データを読み込めませんでした。少し待って再読み込みしてね。</div>';
+      '<div class="empty">商品データを読み込めませんでした。</div>';
   }
 }
 
@@ -103,42 +243,97 @@ function renderProducts(){
     selectedCategory==="all"||p.category===selectedCategory
   );
   const area=document.getElementById("products");
+
   if(!list.length){
-    area.innerHTML='<div class="empty">該当する商品はまだありません 🧸</div>';
+    area.innerHTML='<div class="empty">該当する商品はありません 🧸</div>';
     return;
   }
+
   area.innerHTML=list.map(p=>{
-    const image=p.image||"";
     const name=escapeHTML(p.name||"商品名未登録");
     const category=escapeHTML(p.category||"その他");
     const release=escapeHTML(p.releaseDate||"未定");
     const preorder=escapeHTML(p.preorderDate||"未定");
     const price=escapeHTML(p.price||"未定");
+    const image=safeURL(p.image);
     const link=safeURL(p.url);
+
     return `<article class="product">
-      <img src="${escapeAttr(image)}" alt="${name}" loading="lazy"
-        onerror="this.style.display='none'">
+      ${image?`<img src="${escapeHTML(image)}" alt="${name}" loading="lazy" onerror="this.style.display='none'">`:""}
       <div class="info">
         <div class="name">${name}</div>
         <span class="tag">${category}</span>
-        <div class="meta">発売日：${release}<br>予約開始：${preorder}<br>価格：${price}</div>
-        ${link?`<a class="detail" href="${link}" target="_blank" rel="noopener">商品詳細を見る ↗</a>`:""}
+        <div class="meta">
+          発売日：${release}<br>
+          予約開始：${preorder}<br>
+          価格：${price}
+        </div>
+        ${link?`<a class="detail" href="${escapeHTML(link)}" target="_blank" rel="noopener">商品詳細を見る ↗</a>`:""}
       </div>
     </article>`;
   }).join("");
 }
-function escapeHTML(value){
-  return String(value).replace(/[&<>"']/g,c=>({
-    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-  }[c]));
-}
-function escapeAttr(value){return escapeHTML(value)}
-function safeURL(value){
+
+async function loadCardNews(){
   try{
-    const u=new URL(value,location.href);
-    return ["https:","http:"].includes(u.protocol)?escapeAttr(u.href):"";
-  }catch{return ""}
+    const data=await loadJSON("card_news.json");
+    const news=Array.isArray(data.news)?data.news:[];
+    const area=document.getElementById("cardNews");
+
+    document.getElementById("cardStatus").textContent="取得成功";
+    document.getElementById("cardStatus").className="good";
+    document.getElementById("cardUpdated").textContent=
+      data.updatedAt?"更新日時："+data.updatedAt:"";
+
+    if(!news.length){
+      area.innerHTML='<div class="empty">現在ニュースはありません。</div>';
+      return;
+    }
+
+    area.innerHTML=news.slice(0,10).map(item=>{
+      const title=escapeHTML(item.title||"タイトル未登録");
+      const link=safeURL(item.url);
+      return `<div class="news-item">
+        ${link?`<a href="${escapeHTML(link)}" target="_blank" rel="noopener">${title} ↗</a>`:title}
+        <div class="news-source">ポケモンカード公式ニュース</div>
+      </div>`;
+    }).join("");
+
+  }catch(error){
+    document.getElementById("cardStatus").textContent="取得失敗";
+    document.getElementById("cardStatus").className="bad";
+    document.getElementById("cardNews").innerHTML=
+      '<div class="empty">ニュースを読み込めませんでした。</div>';
+  }
 }
+
+async function loadPokemonCenter(){
+  try{
+    const data=await loadJSON("pokemoncenter_news.json");
+    const status=data.status||"未確認";
+    const success=status==="接続成功";
+
+    document.getElementById("centerStatus").textContent=
+      success?"接続成功":status;
+    document.getElementById("centerStatus").className=
+      success?"good":"bad";
+
+    document.getElementById("centerMessage").textContent=
+      data.message||"確認情報はありません";
+    document.getElementById("centerMessage").className=
+      "status "+(success?"good":"bad");
+
+    document.getElementById("centerUpdated").textContent=
+      data.updatedAt?"最終確認："+data.updatedAt:"";
+
+  }catch(error){
+    document.getElementById("centerStatus").textContent="取得失敗";
+    document.getElementById("centerStatus").className="bad";
+    document.getElementById("centerMessage").textContent=
+      "確認データを読み込めませんでした";
+  }
+}
+
 document.getElementById("filters").addEventListener("click",e=>{
   const button=e.target.closest("button");
   if(!button)return;
@@ -148,7 +343,14 @@ document.getElementById("filters").addEventListener("click",e=>{
   );
   renderProducts();
 });
+
+document.getElementById("lastUpdated").textContent=
+  "ページ表示："+new Date().toLocaleString("ja-JP");
+
 loadProducts();
+loadCardNews();
+loadPokemonCenter();
 </script>
+
 </body>
 </html>
