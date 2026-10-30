@@ -3,13 +3,13 @@
   "updatedAt": "2026-10-30",
   "products": [
     {
-      "name": "ピカチュウ テストぬいぐるみ",
+      "name": "ピカピカボックス2027",
       "category": "ぬいぐるみ",
-      "image": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/25.png",
-      "releaseDate": "2026年11月予定",
-      "preorderDate": "未定",
-      "price": "テスト用",
-      "url": "https://www.pokemoncenter-online.com/"
+      "image": "https://www.pokemon.co.jp/PostImages/42ee222ff9a1e083eecea5e9b19496e88d64edc5.jpg",
+      "releaseDate": "発送予定：12月11日～12月25日",
+      "preorderDate": "抽選応募：11月2日 16:59まで",
+      "price": "5,500円（税込）",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261023_to01.html"
     }
   ]
 }
