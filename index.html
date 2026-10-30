@@ -1,0 +1,154 @@
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ポケモングッズ リマインダー</title>
+<style>
+*{box-sizing:border-box}
+body{
+  margin:0;
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;
+  background:#f3faff;color:#26364b;
+}
+header{
+  padding:24px 16px;text-align:center;
+  background:linear-gradient(135deg,#d9f2ff,#fff5bd);
+  border-radius:0 0 28px 28px;
+}
+h1{font-size:23px;margin:4px}
+header p{font-size:12px;color:#60758a;margin:8px}
+main{max-width:760px;margin:auto;padding:18px 14px}
+.section-title{font-size:18px;font-weight:bold;margin:12px 0}
+.summary{
+  background:white;border-radius:16px;padding:15px;
+  box-shadow:0 3px 14px #c9ddeb55;margin-bottom:20px;
+}
+.filters{display:flex;gap:8px;flex-wrap:wrap;margin:12px 0}
+.filters button{
+  border:0;border-radius:20px;padding:9px 14px;
+  background:#e4f3ff;color:#315879;font-weight:bold;
+}
+.filters button.active{background:#347fbd;color:white}
+.products{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}
+.product{
+  background:white;border-radius:16px;overflow:hidden;
+  box-shadow:0 3px 14px #c9ddeb55;
+}
+.product img{width:100%;aspect-ratio:1/1;object-fit:contain;background:#f8fbff}
+.info{padding:11px}
+.name{font-weight:bold;font-size:14px}
+.meta{font-size:12px;color:#64788a;margin-top:7px;line-height:1.7}
+.tag{display:inline-block;background:#fff1b9;color:#795d00;
+  padding:4px 8px;border-radius:10px;font-size:11px;margin-top:7px}
+.detail{display:block;text-align:center;background:#e7f4ff;
+  color:#27669b;padding:9px;border-radius:10px;margin-top:10px;
+  text-decoration:none;font-size:12px;font-weight:bold}
+.empty{background:white;padding:22px;border-radius:14px;
+  text-align:center;color:#73869a;grid-column:1/-1}
+footer{text-align:center;font-size:11px;color:#91a1af;padding:28px}
+@media(min-width:600px){.products{grid-template-columns:repeat(3,minmax(0,1fr))}}
+</style>
+</head>
+<body>
+<header>
+  <div>⚡ POKÉMON GOODS ⚡</div>
+  <h1>ポケモングッズ リマインダー</h1>
+  <p>お気に入りのグッズを見逃さないためのコレクション帳</p>
+</header>
+<main>
+  <div class="summary">
+    <div class="section-title">🎁 グッズ情報</div>
+    <div id="count">商品情報を読み込み中...</div>
+    <div id="updated" class="meta"></div>
+  </div>
+  <div class="section-title">商品一覧</div>
+  <div class="filters" id="filters">
+    <button class="active" data-category="all">すべて</button>
+    <button data-category="ぬいぐるみ">ぬいぐるみ</button>
+    <button data-category="キーホルダー">キーホルダー</button>
+    <button data-category="フィギュア">フィギュア</button>
+    <button data-category="その他">その他</button>
+  </div>
+  <div class="products" id="products">
+    <div class="empty">商品データを準備中です 🐾</div>
+  </div>
+</main>
+<footer>Pokémon Goods Reminder</footer>
+<script>
+let allProducts=[];
+let selectedCategory="all";
+
+async function loadProducts(){
+  try{
+    const response=await fetch("./products.json?time="+Date.now());
+    if(!response.ok) throw new Error("商品データを読み込めません");
+    const data=await response.json();
+    allProducts=Array.isArray(data.products)?data.products:[];
+    document.getElementById("count").textContent=
+      "登録商品："+allProducts.length+"件";
+    document.getElementById("updated").textContent=
+      data.updatedAt?"更新日："+data.updatedAt:"";
+    renderProducts();
+  }catch(error){
+    document.getElementById("count").textContent="商品データの読み込み待ち";
+    document.getElementById("products").innerHTML=
+      '<div class="empty">商品データを読み込めませんでした。少し待って再読み込みしてね。</div>';
+  }
+}
+
+function renderProducts(){
+  const list=allProducts.filter(p=>
+    selectedCategory==="all"||p.category===selectedCategory
+  );
+  const area=document.getElementById("products");
+  if(!list.length){
+    area.innerHTML='<div class="empty">該当する商品はまだありません 🧸</div>';
+    return;
+  }
+  area.innerHTML=list.map(p=>{
+    const image=p.image||"";
+    const name=escapeHTML(p.name||"商品名未登録");
+    const category=escapeHTML(p.category||"その他");
+    const release=escapeHTML(p.releaseDate||"未定");
+    const preorder=escapeHTML(p.preorderDate||"未定");
+    const price=escapeHTML(p.price||"未定");
+    const link=safeURL(p.url);
+    return `<article class="product">
+      <img src="${escapeAttr(image)}" alt="${name}" loading="lazy"
+        onerror="this.style.display='none'">
+      <div class="info">
+        <div class="name">${name}</div>
+        <span class="tag">${category}</span>
+        <div class="meta">発売日：${release}<br>予約開始：${preorder}<br>価格：${price}</div>
+        ${link?`<a class="detail" href="${link}" target="_blank" rel="noopener">商品詳細を見る ↗</a>`:""}
+      </div>
+    </article>`;
+  }).join("");
+}
+function escapeHTML(value){
+  return String(value).replace(/[&<>"']/g,c=>({
+    "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
+  }[c]));
+}
+function escapeAttr(value){return escapeHTML(value)}
+function safeURL(value){
+  try{
+    const u=new URL(value,location.href);
+    return ["https:","http:"].includes(u.protocol)?escapeAttr(u.href):"";
+  }catch{return ""}
+}
+document.getElementById("filters").addEventListener("click",e=>{
+  const button=e.target.closest("button");
+  if(!button)return;
+  selectedCategory=button.dataset.category;
+  document.querySelectorAll(".filters button").forEach(b=>
+    b.classList.toggle("active",b===button)
+  );
+  renderProducts();
+});
+loadProducts();
+</script>
+</body>
+</html>
