@@ -1,15 +1,205 @@
-
 {
-  "updatedAt": "2026-10-30",
+  "updatedAt": "2026-10-30 11:11",
   "products": [
     {
-      "name": "ピカピカボックス2027",
-      "category": "ぬいぐるみ",
-      "image": "https://www.pokemon.co.jp/PostImages/42ee222ff9a1e083eecea5e9b19496e88d64edc5.jpg",
-      "releaseDate": "発送予定：12月11日～12月25日",
-      "preorderDate": "抽選応募：11月2日 16:59まで",
-      "price": "5,500円（税込）",
-      "url": "https://www.pokemon.co.jp/goods/2026/10/261023_to01.html"
+      "name": "「ピカピカボックス2027」が、ポケモンセンターオンラインに登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/fbb6af8fd481bc9ee945bffc8794384e1ac5c3ae.jpg",
+      "releaseDate": "公式掲載日: 2026.10.23",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261023_to01.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "LINEスタンプ「ころころじょうず！タマザラシ！」が発売中！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/3d132fbaebe340659526611a040de485cc2f8152.png",
+      "releaseDate": "公式掲載日: 2026.10.23",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261023_ph01.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "ジーユーから、ポケモンの秋冬のコレクションが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/50e9fd243ccf8ee0425ae5cc6c1b8c442b080d91.jpg",
+      "releaseDate": "公式掲載日: 2026.10.23",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.gu-global.com/jp/ja/feature/contents/collaboration/pokemon",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "セガより、冬にぴったりのふわふわで温かな生地のブランケットが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/0e02c1a29c6c554e8a4349f0f6c0a66bbba58f70.jpg",
+      "releaseDate": "公式掲載日: 2026.10.23",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://segaplaza.jp/prize/D123438/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "ポケモンがデザインされた「ダイカットパスケース」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/6c01f91dd2488909e900c3dfe49f9610dba88eaf.jpg",
+      "releaseDate": "公式掲載日: 2026.10.23",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261023_fa01.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "アサヒシューズから、ポケモンデザインのミッドカットシューズが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/c60e742f1d2d9408a85e04911432dd4289e325fa.jpg",
+      "releaseDate": "公式掲載日: 2026.10.23",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.asahi-netshop.com/shopdetail/000000001652",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「ポケモン ピクセルアート」の文房具コレクションが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/b942fe4bbe88bc9c45ef000619f926ab1d5a500a.jpg",
+      "releaseDate": "公式掲載日: 2026.10.23",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261023_st01.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "クリスマスをテーマにしたグッズ「クリスマスじゅんびチュウ！」が、ポケモンセンターに登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/6ab120ff308f492656c2799ecded509bba7599f2.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261016_to01.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "『Pokémon LEGENDS Z-A』の舞台であるミアレシティでの優雅で楽しい暮らしを描いたグッズがポケモンセンターに登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/e490d07f373d6f649db591216695a0cf614957c9.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261016_go01.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "『ぽこ あ ポケモン』に登場するメタモンの立体ラバーキーホルダーが、ポケモンセンターに登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/83feef51b4f6aa31363978add9b7a87c8f69f7f2.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/10/261016_go02.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "セキグチの「もこもこぷち」シリーズにコイル・みがわりが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/bbd82842b2e85a36366251b537e5e5c917459be7.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.sekiguchi.co.jp/feature/9786/?utm_source=official_site&utm_medium=referral&utm_campaign=publisher_promotion&utm_content=goods_link",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「キミにきめた！ポケモンゲットぬいぐるみ」に新ラインナップが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/64830c569d70bd31b7fcd0ba51dcd95712ffbfca.png",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.takaratomy-arts.co.jp/specials/pokemon_plush/?new=2&pokemonget=3",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "イーブイフレンズの「フェイスぬいぐるみバンド」の第2弾が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/ce700cd8c198718ca064b5c0f4f5dda38457babc.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://bsp-prize.jp/item/2837914/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "昭和西川から、『Pokémon Sleep』デザインの秋冬寝具が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/781f0249e1674eb433a948da5f62cfe3eb64fe3f.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.nishikawa-store.com/pages/lp-pokemon2026",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "『ぽこ あ ポケモン』のポケモンをデザインしたラグマットが登場",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/1670e9ced5d02b294e443bce2723a4611ada0c7c.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://bsp-prize.jp/item/2859904/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "『ぽこ あ ポケモン』 のシリコンバンド付きアクリルブロックが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/3d4f4002ea4257bba290ba569396f3a5f7cf445a.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://bsp-prize.jp/item/2859903/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "セガより、もこもこ生地を使用した温かみのあるトートバッグが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/41dcd5ed7ff0f17632b2b18082fd53f4ce1075a8.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://segaplaza.jp/prize/H120623/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "ポケモンのもっこもこ靴下に新デザインが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/e3b715690251c30b50782bbecf81c4eeafe7b94a.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.smallplanet-online.com/view/category/1_43pokemon?sort=order",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "ソフビフィギュアシリーズ「SOFVIMATES」より、フシギバナが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/3cc49564486fcad8bfcd8b0705e993ff779247b3.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://bsp-prize.jp/item/2840180/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「ポケモン Windowsill Collection」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/27d2a2923faa7c0b052f9b1b351da96283bece37.jpg",
+      "releaseDate": "公式掲載日: 2026.10.16",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.re-ment.co.jp/product/r70087",
+      "source": "ポケモン公式サイト"
     }
   ]
 }
