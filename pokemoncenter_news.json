@@ -1,11 +1,138 @@
 {
-  "status": "取得失敗",
-  "message": "公式ページを取得できませんでした。アクセス制限などの可能性があります。",
-  "updatedAt": "2026-11-05T07:12:53+09:00",
-  "news": [],
-  "errors": [
-    "ポケモンセンターオンライン: HTTPError HTTP Error 403: Forbidden",
-    "特集・新商品: HTTPError HTTP Error 403: Forbidden",
-    "新商品・予約商品: HTTPError HTTP Error 403: Forbidden"
-  ]
+  "status": "接続成功",
+  "message": "公式ページを確認しました。3ページ取得成功、関連リンク26件。",
+  "updatedAt": "2026-11-06T07:12:24+09:00",
+  "news": [
+    {
+      "title": "『ぽこ あ ポケモン エキスパンションパス』 発売中！第1弾は8月5日配信！",
+      "url": "https://www.pokemoncenter-online.com/games/software/?q=『ぽこ%20あ%20ポケモン%20エキスパンションパス』",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "新商品",
+      "url": "https://www.pokemoncenter-online.com/search/?prefn1=releaseType&prefv1=1&srule=top-new-product",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "2025年09月19日 ポケモンセンターオンラインをご利用のお客様へ：不正ログインに関する重要なお知らせとお願い",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20250919",
+      "source": "ポケモンセンターオンライン"
+    },
+    {
+      "title": "2025年07月03日 「会員アカウント」に対する不正ログインの発生のご報告とポケモンセンターオンラインを安全にご利用いただくためのお願い",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20250703_1",
+      "source": "ポケモンセンターオンライン"
+    },
+    {
+      "title": "2024年09月18日 モバイルバッテリー（発売元：株式会社ポケモン）の自主回収およびご返金に関する再度のお知らせとお願い",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20240918",
+      "source": "ポケモンセンターオンライン"
+    },
+    {
+      "title": "【予約】ポケットモンスター　ビジュアルアートブック　BOOK1",
+      "url": "https://www.pokemoncenter-online.com/9784824018731.html",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "【予約】ポケットモンスター　ビジュアルアートブック　BOOK3",
+      "url": "https://www.pokemoncenter-online.com/9784824018755.html",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "【予約】ポケットモンスター　ビジュアルアートブック　BOOK2",
+      "url": "https://www.pokemoncenter-online.com/9784824018748.html",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "2026年11月05日 新商品発売時におけるサイト内エラー発生のお詫びと再販売に関してのご案内",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20261105",
+      "source": "ポケモンセンターオンライン"
+    },
+    {
+      "title": "2026年10月30日 ポケモンカードゲーム MEGA 拡張パック ハドウシーカーの追加抽選販売について",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20261030",
+      "source": "ポケモンセンターオンライン"
+    },
+    {
+      "title": "2026年09月29日 ポケモンカードゲームの追加抽選販売について",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20260929",
+      "source": "ポケモンセンターオンライン"
+    },
+    {
+      "title": "2026年07月28日 『ポケットモンスター』シリーズの歴代ゲームソフトのパッケージがデザインされたグッズの受注販売、および再販売についてご案内",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20260728",
+      "source": "ポケモンセンターオンライン"
+    },
+    {
+      "title": "新商品",
+      "url": "https://www.pokemoncenter-online.com/feature-list/#title-new-goods",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "予約・受注商品",
+      "url": "https://www.pokemoncenter-online.com/feature-list/#title-reserved-goods",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "再入荷した商品をチェックしよう！",
+      "url": "https://www.pokemoncenter-online.com/search/?prefn1=releaseType&prefv1=2",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "過去発売のグッズをチェック！",
+      "url": "https://www.pokemoncenter-online.com/feature/feature_archive_2026_07_12.html",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "集めて楽しいミニチュアフィギュアに新商品が登場！",
+      "url": "https://www.pokemoncenter-online.com/search/?q=%E3%83%AA%E3%83%BC%E3%83%A1%E3%83%B3%E3%83%88&srule=top-new-product",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "モンコレシリーズ再入荷商品をチェック！",
+      "url": "https://www.pokemoncenter-online.com/search/?srule=top-new-product&q=モンコレ再入荷",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "『Pokémon LEGENDS Z-A』が好評発売中！",
+      "url": "https://www.pokemoncenter-online.com/feature/special2025.html",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "新商品のご案内やお誕生月の「おいわい」、ワクワクなキャンペーン情報をメルマガでお届けするよ！",
+      "url": "https://www.pokemoncenter-online.com/feature/mail-magazine.html",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "ポケモンセンターオンラインでのお買い物で、ポケポイントが貯まるよ！",
+      "url": "https://www.pokemoncenter-online.com/feature/pokepoint.html",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "ポケモンセンターオンラインへようこそ！初めての方へ、5つの特長をご紹介するよ。",
+      "url": "https://www.pokemoncenter-online.com/feature/welcome.html",
+      "source": "特集・新商品"
+    },
+    {
+      "title": "ポケモンセンターオンライン",
+      "url": "https://www.pokemoncenter-online.com/",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "再入荷",
+      "url": "https://www.pokemoncenter-online.com/on/demandware.store/Sites-POL-Site/ja_JP/Search-ShowAjax?prefn1=releaseType&prefv1=1%7c3&srule=top-new-product&inStock=1",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "予約",
+      "url": "https://www.pokemoncenter-online.com/on/demandware.store/Sites-POL-Site/ja_JP/Search-ShowAjax?prefn1=releaseType&prefv1=1%7c2&srule=top-new-product&inStock=1",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "【プレイヤーズクラブ：本人未認証枠】【抽選販売】ポケモンカードゲーム MEGA スペシャルデッキセットMEGA メガオーダイル・メガカイリュー・メガゲンガー",
+      "url": "https://www.pokemoncenter-online.com/9900000008970.html",
+      "source": "新商品・予約商品"
+    }
+  ],
+  "errors": []
 }
