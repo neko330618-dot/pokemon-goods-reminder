@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-12 07:38",
+  "updatedAt": "2026-11-13 07:12",
   "products": [
     {
       "name": "「ピカピカボックス2027」が、ポケモンセンターオンラインに登場！",
@@ -439,6 +439,16 @@
       "preorderDate": "",
       "price": "公式詳細ページで確認",
       "url": "https://www.takaratomy.co.jp/products/pokemon/motto_poke_nade_monsterball/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "新作ボードゲーム「お前、もしかしてロケット団？」が発売中！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/b2bad59c4baeef5f824338984f81398f2eee7e2e.png",
+      "releaseDate": "公式掲載日: 2026.11.12",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemoncenter-online.com/4521329464619.html?utm_medium=referral&utm_source=official&utm_campaign=official_md_261112_1064",
       "source": "ポケモン公式サイト"
     }
   ]
