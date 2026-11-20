@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-20 07:15",
+  "updatedAt": "2026-11-21 07:13",
   "products": [
     {
       "name": "「ピカピカボックス2027」が、ポケモンセンターオンラインに登場！",
@@ -599,6 +599,196 @@
       "preorderDate": "",
       "price": "公式詳細ページで確認",
       "url": "https://www.eyeup.co.jp/c/gr442/gr527/gr611",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「ゆきだるまぬいぐるみ」の新作が、ポケモンセンターに登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/f5b8afff5ddb4261c8ee1401fdf5aed07e6f7246.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/11/261120_to01.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "とある農場でお手伝いするポケモンたちをテーマにしたグッズが、ポケモンセンターに登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/5efebca5bc05d6ad27282f69abf584161da16965.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/11/261120_to02.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "ピカチュウとウールー、ダルマッカとガラルダルマッカの「陶飾り」が、ポケモンセンターに登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/21b3debb980e07fe8cf201b685b57aec76aa0626.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/11/261120_go01.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "めちゃもふぐっとぬいぐるみに、リオルが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/8df1a3e6a787c9d6f6820c20cf8b14730dfffbcc.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://bsp-prize.jp/item/2848103/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「ポケピース ときめききゅんどーる うるちゅるすいーつ」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/206bc4b4f6783e99a0d5c57c509748aeed1a260d.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.takaratomy.co.jp/products/pokemon/pokepeace/uruchuru_sweets/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「ポケピース ぷにキュンライト プリン」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/0f8fcb91eee6586a955fe3b895dbaaeb9856932f.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.takaratomy.co.jp/products/pokemon/pokepeace/light_purin/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "モンポケから、ベビー＆キッズ歯ブラシが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/00ed70af5d6250714e95c2a13555960179abd46f.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://hamico.jp/lineup/baby/monpoke/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "セガより、イーブイフレンズの巾着付きブランケットが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/d7589531d42afd4e2225b8992351272d4f2ff085.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://segaplaza.jp/prize/D123445/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "『ぽこ あ ポケモン』モチーフのブランケットが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/3678e0f85af14a8449bb46eef9623aebf8e4afaf.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://bsp-prize.jp/item/2859900/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "『ぽこ あ ポケモン』モチーフのネックポーチが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/d118a29470c900aa70841c2804566811fe899afd.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://bsp-prize.jp/item/2859837/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「トートバッグ＆ポーチコレクションvol.12」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/a22c321cd9139dcd6382c87c1203b9b5a505f13c.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://gashapon.jp/products/detail.php?jan_code=4582770139730000",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「オルフェス ブリスターパックシリーズ」に、新パッケージが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/4e5cc21b47dadb7946637b837f88c6ba99bf8595.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.pokemon.co.jp/goods/2026/11/261120_da04.html",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "川辺株式会社より、ポケモンの新作タオルハンカチが登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/9311f2b97c43d1564ce7dd43c68db3d6511df5af.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://shop.kawabe.co.jp/collections/pokemon_all",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "パーラービーズに、「旅立ちの3匹セット」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/613f90d41dc2780890b4a8a6d26f67cebc53e9cb.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.kawada-toys.com/brand/perlerbeads/catalog/per17613k/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "モンコレに、ポケモン30周年を記念した「えらぶピカチュウ」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/1befd8bbd0f9afc61cf107a0c2348974c7155e90.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.takaratomy.co.jp/products/pokemon/moncolle_ex/lineup/pokemon_30th/erabu_pikachu/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「モンコレ メガルカリオＺ」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/f85ec510754b94299d6de2a5b1d6be5ce908e098.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.takaratomy.co.jp/products/pokemon/moncolle_ex/lineup/mega_lucario_z/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "「モンコレ デルポケ リザードン（モンスターボール）」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/f0d163e78ba0a60fba92374a3fa01dc53a3229be.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.takaratomy.co.jp/products/pokemon/pokecatch_pokepop/#sec02",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "モンコレなどを入れて遊べる「ポケモン ガチャマシン」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/03b00afa92066d2df0eadae7938f03058e0afc4f.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.takaratomy.co.jp/products/pokemon/gacha_machine_2026/",
+      "source": "ポケモン公式サイト"
+    },
+    {
+      "name": "ショウワノートから「ポケモンの新学期シリーズ」が登場！",
+      "category": "公式サイト掲載",
+      "image": "https://www.pokemon.co.jp/PostImages/c7cb28c64f0f494ed85c97c625b260b573ec7958.jpg",
+      "releaseDate": "公式掲載日: 2026.11.20",
+      "preorderDate": "",
+      "price": "公式詳細ページで確認",
+      "url": "https://www.showa-note.co.jp/products/search_result?freeword=2027%E5%B9%B4%E6%96%B0%E5%AD%A6%E6%9C%9F_%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%83%BB%E3%83%9D%E3%82%B1%E3%83%A2%E3%83%B3%E3%83%81%E3%83%A3%E3%83%BC%E3%83%9F%E3%83%B3%E3%82%B0%E3%83%A6%E3%83%BC&category=&series=&size=",
       "source": "ポケモン公式サイト"
     }
   ]
