@@ -1,7 +1,7 @@
 {
   "status": "接続成功",
-  "message": "公式ページを確認しました。3ページ取得成功、関連リンク28件。",
-  "updatedAt": "2026-11-27T12:42:01+09:00",
+  "message": "公式ページを確認しました。3ページ取得成功、関連リンク32件。",
+  "updatedAt": "2026-11-28T12:24:49+09:00",
   "news": [
     {
       "title": "『ぽこ あ ポケモン エキスパンションパス』 発売中！第2弾は12月9日配信予定！",
@@ -29,6 +29,11 @@
       "source": "ポケモンセンターオンライン"
     },
     {
+      "title": "『ポケットモンスター』シリーズ30周年を記念したアートブックの予約を受け付けているよ！ 2026年11月27日",
+      "url": "https://www.pokemoncenter-online.com/search/?srule=top-new-product&q=ポケットモンスター　ビジュアルアートブック",
+      "source": "新商品・予約商品"
+    },
+    {
       "title": "【予約】ポケットモンスター　ビジュアルアートブック　BOOK1",
       "url": "https://www.pokemoncenter-online.com/9784824018731.html",
       "source": "新商品・予約商品"
@@ -42,6 +47,11 @@
       "title": "【予約】ポケットモンスター　ビジュアルアートブック　BOOK3",
       "url": "https://www.pokemoncenter-online.com/9784824018755.html",
       "source": "新商品・予約商品"
+    },
+    {
+      "title": "2026年11月27日 12月1日（火）～12月7日（月）ポケモンカードゲーム30周年記念商品の抽選販売について",
+      "url": "https://www.pokemoncenter-online.com/news/?id=20261127",
+      "source": "ポケモンセンターオンライン"
     },
     {
       "title": "2026年11月20日 ポケモンカードゲーム カードイラストフィギュアコレクション 30th CELEBRATIONの抽選販売について",
@@ -139,8 +149,18 @@
       "source": "新商品・予約商品"
     },
     {
+      "title": "【プレイヤーズクラブ：本人認証済み枠】【抽選販売】ポケモンカードゲーム カードイラストフィギュアコレクション 30th CELEBRATION",
+      "url": "https://www.pokemoncenter-online.com/4521329462684.html",
+      "source": "新商品・予約商品"
+    },
+    {
       "title": "【プレイヤーズクラブ：本人未認証枠】【抽選販売】ポケモンカードゲーム MEGA 拡張パック ハドウシーカー BOX",
       "url": "https://www.pokemoncenter-online.com/9900000008567.html",
+      "source": "新商品・予約商品"
+    },
+    {
+      "title": "【プレイヤーズクラブ：本人未認証枠】【抽選販売】ポケモンカードゲーム カードイラストフィギュアコレクション 30th CELEBRATION",
+      "url": "https://www.pokemoncenter-online.com/9900000009458.html",
       "source": "新商品・予約商品"
     }
   ],
